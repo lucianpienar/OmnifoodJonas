@@ -162,7 +162,7 @@
 
 .step-img-box::before,
 .step-img-box::after {
-  content: '';
+  content: "";
   display: block;
   border-radius: 50%;
   position: absolute;
@@ -378,7 +378,7 @@
 }
 
 .pricing-plan--complete::after {
-  content: 'Best value';
+  content: "Best value";
   position: absolute;
   top: 6%;
   right: -18%;
@@ -472,9 +472,6 @@
   border-radius: 11px;
 
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
-
-  /* temporary */
-  height: 50rem;
   overflow: hidden;
 }
 
@@ -501,7 +498,7 @@
       rgba(235, 151, 78, 0.35),
       rgba(230, 125, 34, 0.35)
     ),
-    url('../img/eating.jpg');
+    url("../img/eating.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -535,10 +532,4 @@
 
 .cta-form input::placeholder {
   color: #aaa;
-}
-
-.cta-form select {
-}
-
-.cta-form button {
 }
