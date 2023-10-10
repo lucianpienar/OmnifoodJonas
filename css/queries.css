@@ -55,7 +55,6 @@
     padding: 9.6rem 3.2rem;
   }
 }
-
 /* ======================================== */
 /* BELOW 944px (tablets - portrait) */
 /* ========================================= */
@@ -161,11 +160,11 @@
     transform: translateX(0);
   }
 
-  .nav-open .icon-mobile-nav[name='close-outline'] {
+  .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
 
-  .nav-open .icon-mobile-nav[name='menu-outline'] {
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
 
@@ -220,7 +219,7 @@
   .nav-col {
     grid-row: 1;
     grid-column: span 2;
-    margin-bottom: 3.2rem1;
+    margin-bottom: 3.2rem;
   }
 }
 
@@ -279,6 +278,5 @@
 - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
-- Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
-*/
+Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
