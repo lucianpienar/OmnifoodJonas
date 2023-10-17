@@ -97,11 +97,15 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <img
-              src="img/hero.webp"
-              class="hero-img"
-              alt="woman enjoying food, meals in storage container and food bowls on a table"
-            />
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero-min.png" type="image/png" />
+              <img
+                src="img/hero-min.png"
+                class="hero-img"
+                alt="woman enjoying food, meals in storage container and food bowls on a table"
+              />
+            </picture>
           </div>
         </div>
       </section>
@@ -563,6 +567,7 @@
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
+                    name="full-name"
                     id="full-name"
                     type="text"
                     placeholder="John Smith"
@@ -572,6 +577,7 @@
                 <div>
                   <label for="email">Email address</label>
                   <input
+                    name="email"
                     id="email"
                     type="email"
                     placeholder="me@example.com"
@@ -580,7 +586,7 @@
                 </div>
                 <div>
                   <label for="select-where">Where did you hear from us ?</label>
-                  <select name="" id="select-where" required>
+                  <select name="select-where" id="select-where" required>
                     <option value="">Please choose an option:</option>
                     <option value="friends">Friends and family</option>
                     <option value="youtube">Youtube video</option>
